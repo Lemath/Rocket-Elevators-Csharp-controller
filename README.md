@@ -27,6 +27,3 @@ which should give something like:
 
 ![csharp_test2](https://user-images.githubusercontent.com/56204810/138208364-f8fbaf27-fbc8-4355-846f-bb79eed7bcc7.jpg)
 
-Make sure to only edit files in the Commercial_Controller folder. The test and scenarios files can be left in your final project. The grader will run tests similar to the ones provided.
-
-Of course, make sure to edit this Readme file to describe your own project!
