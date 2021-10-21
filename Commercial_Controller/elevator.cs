@@ -103,6 +103,7 @@ namespace Commercial_Controller
                 {
                     overweightAlarm = true;
                 }
+                overweightAlarm = false;
                 operateDoors();
             }
         }

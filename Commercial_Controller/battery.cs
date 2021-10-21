@@ -19,6 +19,7 @@ namespace Commercial_Controller
             columnsList = new List<Column>();
             floorRequestsButttonsList = new List<FloorRequestButton>();
             columnID = 'A';
+            floorRequestButtonID = 1;
             if (_amountOfBasements > 0)
             {
                 createBasementFloorRequestButtons(_amountOfBasements);
