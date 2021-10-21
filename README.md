@@ -17,7 +17,7 @@ To launch the tests, make sure to be at the root of the repository and run:
 
 With a fully completed project, you should get an output like:
 
-![Screenshot from 2021-06-15 17-31-02](https://user-images.githubusercontent.com/28630658/122128889-3edfa500-ce03-11eb-97d0-df0cc6a79fed.png)
+![csharp_test1](https://user-images.githubusercontent.com/56204810/138208324-23bc89b9-2d42-4d5e-a9a7-c379e06eca6b.png)
 
 You can also get more details about each test by adding the `-v n` flag: 
 
@@ -25,7 +25,7 @@ You can also get more details about each test by adding the `-v n` flag:
 
 which should give something like: 
 
-![Screenshot from 2021-06-15 18-00-52](https://user-images.githubusercontent.com/28630658/122129140-a8f84a00-ce03-11eb-8807-33d7eab8c387.png)
+![csharp_test2](https://user-images.githubusercontent.com/56204810/138208364-f8fbaf27-fbc8-4355-846f-bb79eed7bcc7.jpg)
 
 Make sure to only edit files in the Commercial_Controller folder. The test and scenarios files can be left in your final project. The grader will run tests similar to the ones provided.
 
