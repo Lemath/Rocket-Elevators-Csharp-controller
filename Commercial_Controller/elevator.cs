@@ -81,7 +81,7 @@ namespace Commercial_Controller
             }
         }
 
-        void operateDoors()
+        public void operateDoors()
         {
             door.status = "Opening";
             // Wait 5 seconds

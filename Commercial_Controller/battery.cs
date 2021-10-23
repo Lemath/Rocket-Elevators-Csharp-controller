@@ -34,7 +34,7 @@ namespace Commercial_Controller
         {
             List<int> servedFloors = new List<int> ();
             int floor = -1;
-            while (floor >= amountOfBasements) 
+            while (floor >= -amountOfBasements) 
             {
                 servedFloors.Add(floor);
                 floor--;
@@ -110,4 +110,3 @@ namespace Commercial_Controller
         }
     }
 }
-

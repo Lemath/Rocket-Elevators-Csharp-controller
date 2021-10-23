@@ -30,7 +30,7 @@ namespace Commercial_Controller.Tests
 
             for (int i = 0; i < chosenColumn.elevatorsList.Count; i++)
             {
-                Assert.AreEqual(chosenColumn.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + chosenColumn.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + chosenColumn.elevatorsList[0].currentFloor);
+                Assert.AreEqual(chosenColumn.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + chosenColumn.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + chosenColumn.elevatorsList[i].currentFloor);
             }
         }
 
@@ -58,7 +58,7 @@ namespace Commercial_Controller.Tests
 
             for (int i = 0; i < chosenColumn.elevatorsList.Count; i++)
             {
-                Assert.AreEqual(chosenColumn.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + chosenColumn.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + chosenColumn.elevatorsList[0].currentFloor);
+                Assert.AreEqual(chosenColumn.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + chosenColumn.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + chosenColumn.elevatorsList[i].currentFloor);
             }
         }
 
@@ -83,7 +83,7 @@ namespace Commercial_Controller.Tests
 
             for (int i = 0; i < columnUsed.elevatorsList.Count; i++)
             {
-                Assert.AreEqual(columnUsed.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + columnUsed.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + columnUsed.elevatorsList[0].currentFloor);
+                Assert.AreEqual(columnUsed.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + columnUsed.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + columnUsed.elevatorsList[i].currentFloor);
             }
         }
 
@@ -108,7 +108,7 @@ namespace Commercial_Controller.Tests
 
             for (int i = 0; i < columnUsed.elevatorsList.Count; i++)
             {
-                Assert.AreEqual(columnUsed.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + columnUsed.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + columnUsed.elevatorsList[0].currentFloor);
+                Assert.AreEqual(columnUsed.elevatorsList[i].currentFloor, expectedFinalPositions[i], "Elevator " + columnUsed.elevatorsList[i].ID + " didn't finish at the correct floor, expected " + expectedFinalPositions[i] + ", got " + columnUsed.elevatorsList[i].currentFloor);
             }
         }
     }
